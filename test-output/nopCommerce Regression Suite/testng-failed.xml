@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [nopCommerce Regression Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test parallel="none" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.SearchProductTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="screenshotOnFaliure"/>
+          <include name="stopDriver"/>
+          <include name="UserCanSearchForProducts"/>
+        </methods>
+      </class> <!-- tests.SearchProductTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [nopCommerce Regression Suite] -->
